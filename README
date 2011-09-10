@@ -1,0 +1,40 @@
+Template Library
+Author: Peter Elmered <http://www.elmered.com/>	
+License: http://www.opensource.org/licenses/bsd-license.php BSD licensed.
+
+
+Using the following librarys/classes(not coded by me):
+
+Carabiner 1.45
+Author: Tony Dewan <tonydewan.com/contact>	
+License: http://www.opensource.org/licenses/bsd-license.php BSD licensed.
+Ignited Code thred: http://codeigniter.com/forums/viewthread/117966/
+
+cssin 1.1
+Author: Tony Dewan <tonydewan.com/contact>	
+License http://www.opensource.org/licenses/bsd-license.php BSD license, as per the original Minify_CSS class
+
+jsmin 1.1.1
+Author: Tony Dewan <tonydewan.com/contact>. Originally by Ryan Grove <ryan@wonko.com>
+License http://opensource.org/licenses/mit-license.php MIT License
+
+Curl(9 Dec 2008)
+Author: Philip Sturgeon
+License: No licence (Free to use)
+
+Compactor 0.6.0
+Author: Oliver Lillie (aka buggedcom) <publicmail@buggedcom.co.uk>
+Licence: BSD
+
+FEATURES
+- Verry simple and lightweight
+- Easy to manage
+- Verry litte code requierd in the Controllers
+- Minification(all whitespace deleted) of all output: JavaScript, CSS and HTML
+
+INSTALL INSTRUCTIONS
+1. Copy the files to the /application folder in your CodeIgniter installation
+2. Add to config/config.php
+//Develepment mode. Values TRUE or FALSE.
+//If set to TRUE the output will not be minificated and external assets(CSS and JavaScript) will not be combined for easy debugging.
+$config['development_mode'] = true;
